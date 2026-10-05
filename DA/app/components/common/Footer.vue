@@ -32,7 +32,7 @@ onMounted(() =>{
     ></div>
 
 
-    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+    <div class="absolute inset-0 bg-[#5D1000]/90 backdrop-blur-sm"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto py-16 px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10 font-sans">
         
@@ -59,10 +59,10 @@ onMounted(() =>{
           <HeartIcon class="w-6 h-6 text-yellow-400"/>
           Connect with Us
         </h3>
-        <p class="text-gray-400">
+        <p class="text-gray-200">
           Follow us on social media for daily updates.
         </p>
- <p class="text-gray-400">
+ <p class="text-gray-200">
     {{ bibleWord }}
    
   </p>    <span class="text-yellow-400 ml-2">
@@ -115,7 +115,7 @@ onMounted(() =>{
     </div>
 
     <!-- Footer bottom -->
-    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm font-sans">
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-200 text-sm font-sans">
       © {{ new Date().getFullYear() }} Spiritual Wisdom. Crafted with
       <span class="text-pink-500 inline-flex items-center"><HeartIcon class="w-4 h-4 ml-1"/></span>
       and devotion.

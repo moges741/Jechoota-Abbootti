@@ -11,11 +11,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-gray-950 via-slate-900 to-black py-24 px-6 relative overflow-hidden">
+  <div class="min-h-screen bg-gradient-to-br from-[#1A0500] via-[#3A0A00] to-[#5D1000] py-24 px-6 relative overflow-hidden">
 
  
-    <div class="absolute top-24 left-10 w-72 h-72 bg-pink-500/10 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-24 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-24 left-10 w-72 h-72 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
+    <div class="absolute bottom-24 right-10 w-72 h-72 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
 
     <div class="relative z-10 max-w-4xl mx-auto">
 
@@ -24,7 +24,7 @@ onMounted(() => {
         <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight">
           Hiriyyaa Gaarii
         </h1>
-        <p class="text-gray-400 mt-3">
+        <p class="text-gray-200 mt-3">
           Wisdom About True Friendship
         </p>
       </div>

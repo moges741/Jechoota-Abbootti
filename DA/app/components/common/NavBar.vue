@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="fixed top-0 left-0 w-full z-50 bg-gray-900/50 backdrop-blur-lg p-4">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-xl border-b border-white/10 p-4">
       <div class="container mx-auto flex items-center justify-between">
         
         <div class="text-yellow-500 text-lg font-bold">
@@ -23,7 +23,7 @@
             target="_blank"
             class="ml-4 social-icon"
           >
-            <Github class="w-5 h-5 text-gray-300 hover:text-yellow-500 transition-colors" />
+            <Github class="w-5 h-5 text-gray-100 hover:text-yellow-500 transition-colors" />
           </a>
         </div>
 
@@ -33,7 +33,7 @@
             target="_blank"
             class="social-icon"
           >
-            <Github class="w-5 h-5 text-gray-300 hover:text-yellow-500 transition-colors" />
+            <Github class="w-5 h-5 text-gray-100 hover:text-yellow-500 transition-colors" />
           </a>
           
           <button 
@@ -56,7 +56,7 @@
 
       <transition name="slide">
         <div v-if="isOpen" 
-             class="md:hidden absolute left-0 right-0 top-full bg-gray-900/95 backdrop-blur-lg border-t border-gray-700">
+             class="md:hidden absolute left-0 right-0 top-full bg-black/90 backdrop-blur-lg border-t border-gray-700">
           <ul class="flex flex-col items-center py-6 gap-4">
             <li v-for="link in navLinks" :key="link.path">
               <NuxtLink 

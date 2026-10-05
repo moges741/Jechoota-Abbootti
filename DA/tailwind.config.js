@@ -8,7 +8,15 @@ export default {
     "./plugins/**/*.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          dark: '#5D1000',
+          darker: '#3A0A00',
+          gold: '#FFD700',
+        }
+      }
+    },
   },
   plugins: [],
 }

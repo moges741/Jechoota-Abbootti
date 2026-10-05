@@ -11,11 +11,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-950 via-gray-900 to-black py-24 px-6 relative overflow-hidden">
+  <div class="min-h-screen bg-gradient-to-br from-[#1A0500] via-[#3A0A00] to-[#5D1000] py-24 px-6 relative overflow-hidden">
 
  
-    <div class="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-20 right-10 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-20 left-10 w-72 h-72 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
+    <div class="absolute bottom-20 right-10 w-72 h-72 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
 
     <div class="relative z-10 max-w-4xl mx-auto">
 
@@ -24,7 +24,7 @@ onMounted(() => {
         <h1 class="text-4xl md:text-5xl font-bold text-white tracking-wide">
           Gorsa
         </h1>
-        <p class="text-gray-400 mt-3">
+        <p class="text-gray-200 mt-3">
           Spiritual Guidance and Life Wisdom
         </p>
       </div>

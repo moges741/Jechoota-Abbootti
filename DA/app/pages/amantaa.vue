@@ -11,18 +11,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black py-24 px-6 overflow-hidden">
+  <div class="relative min-h-screen bg-gradient-to-br from-[#1A0500] via-[#3A0A00] to-[#5D1000] py-24 px-6 overflow-hidden">
 
   
-    <div class="absolute top-32 -left-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-32 -right-20 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-32 -left-20 w-80 h-80 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
+    <div class="absolute bottom-32 -right-20 w-80 h-80 bg-[#FFCC00]/15 rounded-full blur-[100px]"></div>
 
     <div class="relative z-10 max-w-4xl mx-auto">
       <div class="text-center mb-16">
         <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight">
           Amantaa Quotes
         </h1>
-        <p class="text-gray-400 mt-4">
+        <p class="text-gray-200 mt-4">
           Strengthen Your Faith Through Sacred Wisdom
         </p>
       </div>

@@ -35,7 +35,7 @@ const contacts = [
   >
 
     <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black via-[#3A0A00] to-black/90 backdrop-blur-sm"></div>
 
     <!-- Content -->
     <div class="relative z-10 w-full max-w-6xl px-6 py-24 md:py-20 pb-16 md:pb-0">
@@ -45,7 +45,7 @@ const contacts = [
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight">
           Contact
         </h1>
-        <p class="text-gray-300 mt-4 text-lg">
+        <p class="text-gray-100 mt-4 text-lg">
           Connect with the minds behind Jechoota Abbootti
         </p>
       </div>
@@ -56,7 +56,7 @@ const contacts = [
         <div
           v-for="person in contacts"
           :key="person.role"
-          class="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-10 shadow-2xl transition-all duration-500 hover:bg-white/10 hover:scale-[1.02]"
+          class="group relative bg-gradient-to-b from-black via-[#3A0A00] to-blacker/30 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-10 shadow-2xl transition-all duration-500 hover:bg-white/5 hover:scale-[1.02]"
         >
 
           <!-- Glow Hover -->
@@ -71,14 +71,14 @@ const contacts = [
 
             <!-- Name -->
             <div class="flex items-center gap-3 mb-6">
-              <UserIcon class="w-6 h-6 text-gray-300" />
+              <UserIcon class="w-6 h-6 text-gray-100" />
               <h2 class="text-xl md:text-2xl font-semibold">
                 {{ person.name }}
               </h2>
             </div>
 
             <!-- Description -->
-            <p class="text-gray-300 leading-relaxed mb-8 text-sm md:text-base">
+            <p class="text-gray-100 leading-relaxed mb-8 text-sm md:text-base">
               {{ person.description }}
             </p>
 
